@@ -11,7 +11,7 @@ const LearnPage = () => {
         <Header title='Spanish' />
       </FeedWrapper>
       <StickyWrapper>
-        <UserProgress activeCourse={{}} hearts={5} points={100} hasActiveSubscription={false} />
+        <UserProgress activeCourse={{ title: 'Spanish', imageSrc: '/es.svg'}} hearts={5} points={100} hasActiveSubscription={false} />
       </StickyWrapper>
     </div>
   )
